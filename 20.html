@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;  /*margin and paddind will bw zero till you override it in further steps*/
+        }
+        body{
+            background-color: #e6cbf8;
+        }
+        .container {
+            background-color: #f0e3d3;
+            border: 3px solid rgb(20 18 122);
+            /* padding: 40px; */
+            /*padding: 23px 56px 6px 78px;  /*paddind/margin -> top right bottom left*/
+            padding: 34px 19px;
+            /*padding: y(top/bottom) x(left/right)*/
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 533px;
+            /*Box Sizing Property*/
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, omnis a voluptatem tenetur,
+            odio veritatis eveniet fugiat ad itaque totam ratione. Eos, quisquam.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, omnis a voluptatem tenetur,
+            odio veritatis eveniet fugiat ad itaque totam ratione. Eos, quisquam.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, omnis a voluptatem tenetur,
+            odio veritatis eveniet fugiat ad itaque totam ratione. Eos, quisquam.</p>
+    </div>
+
+
+</body>
+
+</html>
